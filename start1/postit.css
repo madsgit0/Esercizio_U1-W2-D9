@@ -1,9 +1,13 @@
 main{
     font-family: 'Indie Flower';
-    padding: 80px;
+    padding: 20px;
     background-color: #666666;
     height: 100vh;
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -20,11 +24,27 @@ p{
 }
 
 .post-it{
-    width: 350px;
+    width: 300px;
     height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
-    background-color: aliceblue;
+    margin:30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.309);
+}
+
+.yellow{
+    background-color: #f9fac8;
+    rotate: 355deg;
+}
+
+.green{
+    background-color: #cafccb;
+    rotate: 5deg;
+}
+
+.purple{
+    background-color: #c9c9f7;
+    rotate: 348deg;
 }
