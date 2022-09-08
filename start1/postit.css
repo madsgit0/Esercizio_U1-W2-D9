@@ -34,6 +34,14 @@ p{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.309);
 }
 
+.post-it:hover{
+    transform: scale(130%);
+    rotate: 1deg;
+    z-index: 3;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.194);
+
+}
+
 .yellow{
     background-color: #f9fac8;
     rotate: 355deg;
